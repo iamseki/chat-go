@@ -10,7 +10,7 @@
 <p align="center">This simple project upgrades the connection from HTTP to the <strong>WebSocket</strong>.</p>
  <p align="center">An <strong>unique chat room</strong> is created when user is signed in and everyone talks to everyone.
   </br>
-  <small>User authentication is made by OAuth protocol</small>
+  <small>User authentication with OAuth protocol</small>
  </p>
 
 
