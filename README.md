@@ -45,6 +45,9 @@ Now you're ready to go ;)
         FACE_CLIENT_ID= YOUR-FACEBOOK-CLIENT-ID
         FACE_SECRET_KEY= YOUR-FACEBOOK-SECRET-KEY
   ```
+  **getting OAuth credentials**
+  - <a href="https://github.com/settings/developers">github</a>
+  - <a href="https://console.cloud.google.com/apis/credentials">google</a> 
   
   #### :running: Running the server
   
@@ -52,9 +55,9 @@ Now you're ready to go ;)
   
   or `go build` and `./gochat`
   
-  > expected output in terminal: `😎 Server listenning on:  :8080`
+  > expected output in terminal: `😎 Server listening on:  :8080`
   
-  accessing chat endpoint : `localhost:8080/chat`
+  chat endpoint : **`localhost:8080/chat`**
   
 
 

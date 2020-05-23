@@ -79,7 +79,7 @@ func main() {
 
 	go r.run()
 
-	fmt.Println("😎 Server listen on: ", *addr)
+	fmt.Println("😎 Server listenning on: ", *addr)
 	if err := http.ListenAndServe(*addr, nil); err != nil {
 		log.Fatal("ListenAndServe :", err)
 	}
