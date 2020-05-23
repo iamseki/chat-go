@@ -21,4 +21,41 @@
 </p>
 
 ---
-### :hammer: Under construction
+## :wrench: Running the project
+
+> if you dont have golang in your environment, go and install : https://golang.org/dl/  
+
+Now you're ready to go ;)
+
+#### :floppy_disk: Download dependencies
+  Just execute `go get`
+
+#### :key: Setup Env vars
+
+> create **.env** file in root to set **OAuth credentials**, like this: 
+  ```  
+        SECURITY_KEY= PUT-ANY-HASH-HERE-YOU-CAN-GENERATE-ONE-IN-MD5-HASH-GENERATOR-ONLINE
+
+        GOOGLE_CLIENT_ID= YOUR-GOOGLE-CLIENT-ID
+        GOOGLE_SECRET_KEY= YOUR-GOOGLE-SECRET-KEY
+
+        GITHUB_CLIENT_ID= YOUR-GITHUB-CLIENT-ID
+        GITHUB_SECRET_KEY= YOUR-GOOGLE-SECRET-KEY
+        
+        FACE_CLIENT_ID= YOUR-FACEBOOK-CLIENT-ID
+        FACE_SECRET_KEY= YOUR-FACEBOOK-SECRET-KEY
+  ```
+  
+  #### :running: Running the server
+  
+  execute `go run *.go` 
+  
+  or `go build` and `./gochat`
+  
+  > expected output in terminal: `😎 Server listenning on:  :8080`
+  
+  accessing chat endpoint : `localhost:8080/chat`
+  
+
+
+
