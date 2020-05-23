@@ -27,8 +27,8 @@
 
 Now you're ready to go ;)
 
-#### :floppy_disk: Download dependencies
-  Just execute `go get`
+#### :floppy_disk: install dependencies
+  In go, you don't have to worry about dependencies, because i'm using go modules.
 
 #### :key: Setup Env vars
 
