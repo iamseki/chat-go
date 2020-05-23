@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(49, 48, 48);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+body, input, button,textarea{
+  font: 16px 'Roboto Mono',monospace, sans-serif;
+  background: rgb(49, 48, 48);
+}
+h1,h2,strong,p,small,span{
+  color: whitesmoke;
+}
+button  {
+  cursor: pointer;
+}
