@@ -27,9 +27,6 @@
 
 Now you're ready to go ;)
 
-#### :floppy_disk: install dependencies
-  In go, you don't have to worry about dependencies, because i'm using go modules.
-
 #### :key: Setup Env vars
 
 > create **.env** file in root to set **OAuth credentials**, like this: 
