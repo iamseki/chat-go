@@ -21,13 +21,13 @@
 </p>
 
 ---
-## :wrench: Running the project
+## :wrench: Setup
 
 > if you dont have golang in your environment, go and install : https://golang.org/dl/  
 
 Now you're ready to go ;)
 
-#### :key: Setup Env vars
+#### :key: Env vars
 
 > create **.env** file in root to set **OAuth credentials**, like this: 
   ```  
